@@ -65,14 +65,14 @@ function App() {
             value={query}
             onKeyPress={search}
           />
-          <div className="location-box">
-            <div className="location">New York, NY</div>
-            <div className="date">{dateBuilder(new Date())}</div>
-          </div>
-          <div className="weather-box">
-            <div className="temp">20° C</div>
-            <div className="weather">Sunny</div>
-          </div>
+        </div>
+        <div className="location-box">
+          <div className="location">New York, NY</div>
+          <div className="date">{dateBuilder(new Date())}</div>
+        </div>
+        <div className="weather-box">
+          <div className="temp">20° C</div>
+          <div className="weather">Sunny</div>
         </div>
       </main>
     </div>
